@@ -58,19 +58,6 @@ typedef struct bus_s
 } bus_t;
 
 extern bus_t bus;
-/**
- * struct instruction_s - this struct contains opcode and its function
- * @opcode: the opcode
- * @f: the function to handle the opcode
- *
- * Description: this struct has opcode and its function
- * for stack, queues, LIFO, FIFO Holberton project
- */
-typedef struct instruction_s
-{
-	char *opcode;
-	void (*f)(stack_t **stack, unsigned int line_number);
-} instruction_t;
 char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
 void free_stack(stack_t *head);
 void f_pop(stack_t **head, unsigned int counter);
