@@ -51,7 +51,7 @@ typedef struct instruction_s
  */
 typedef struct bus_s
 {
-	int lifi;
+	int* lifi;
 	FILE *file;
 	char *content;
 	char *arg;
