@@ -61,17 +61,18 @@ The Monty bytecodes for this example will be in the file `00.m`. The solution fo
 will be 1 or more C files which were compiled together with other C files to produce 1 executable file
 namely `monty`. So, by running `./monty bytecodes/00.m`, we are intepreting the Monty Bytecode File `00.m` and
 the Correct output should be displayed, as exemplified below:
-`julien@ubuntu:~/monty$ cat -e bytecodes/00.m
-push 1$
-push 2$
-push 3$
-pall$
-julien@ubuntu:~/monty$ ./monty bytecodes/00.m
-3
-2
-1
-julien@ubuntu:~/monty$
-`
+
+`julien@ubuntu:~/monty$ cat -e bytecodes/00.m`
+`push 1$`
+`push 2$`
+`push 3$`
+`pall$`
+`julien@ubuntu:~/monty$ ./monty bytecodes/00.m`
+`3`
+`2`
+`1`
+`julien@ubuntu:~/monty$`
+
 
 ## Contributing <a name="contributing"></a>
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
